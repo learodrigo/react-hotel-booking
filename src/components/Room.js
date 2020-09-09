@@ -5,7 +5,6 @@ import PropTypes from 'prop-types'
 
 export default function Room ({ room }) {
     const { name, slug, price, images } = room
-    const randomImg = images[Math.floor(Math.random() * images.length)]
 
     return (
         <article className='room'>
